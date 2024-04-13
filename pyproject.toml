@@ -10,7 +10,7 @@ python = "^3.12"
 colorama = "^0.4.6"
 
 [tool.poetry.scripts]
-say-hello = "hello.scripts.say_hello:main"
+say-hello = "scripts.say_hello:main"
 
 [tool.poetry.group.dev.dependencies]
 ipython = "^8.23.0"
